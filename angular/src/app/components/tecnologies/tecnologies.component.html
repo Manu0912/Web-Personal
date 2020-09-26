@@ -1,0 +1,29 @@
+<div class="main-tecnologies">
+    <h1 class="title-tecnologies">Tecnologías</h1>
+    <h2 class="subtitle-tecnologies">Las tecnologías que se usaron para crear esta página, sus distintos roles y el nivel que tengo en ellas</h2>
+</div>
+
+
+<div class="container">
+  
+<div class="card" style="width: 18rem;" *ngFor = "let technology of technologiesService.technologies">
+  <img src= "{{technology.img}}" class="card-img-top imgsCard" alt="">
+  <div class="card-body">
+    <h5 class="card-title" style="text-align: center;"><strong>{{technology.name}}</strong></h5>
+    <p class="card-text">{{technology.description}}</p>
+    <p class="card-text">Mi nivel en esta tecnología: <br> <strong>{{technology.skill}}/100</strong> </p>
+
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'HTML'"></div>
+      <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'CSS'"></div>
+      <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'JavaScript'"></div>
+      <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'Angular'"></div>
+      <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'NodeJs'"></div>
+      <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" *ngIf = "technology.name == 'MongoDB'"></div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>

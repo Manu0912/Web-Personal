@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+.card {
+    float: left;
+    margin-left: 3.75rem;
+    margin-top: 2rem;
+}
+
+.main-tecnologies{
+    padding-top: 3%;
+    text-align: center;
+    clear: both;
+}
+
+.title-tecnologies, .subtitle-tecnologies{
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+}
+
+.title-tecnologies{
+    font-size: 50px;
+    color: black;
+}
+.subtitle-tecnologies{
+    color: #bbb;
+    font-size: 20px;
+}
+
+
+@media(max-width:1500px){
+    
+    .title-tecnologies{
+        font-size: 60px;
+        color: black;
+    }
+    .subtitle-tecnologies{
+        color: #bbb;
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+}    
+@media(max-width:1234px){
+    
+.title-tecnologies{
+    font-size: 40px;
+    color: black;
+}
+.subtitle-tecnologies{
+    color: #bbb;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.card {
+    margin-left: 1rem;
+}
+}
+
+@media(max-width:950px){
+    .title-tecnologies{
+        font-size: 40px;
+        color: black;
+    }
+    .subtitle-tecnologies{
+        color: #bbb;
+        font-size: 15px;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    
+
+.card {
+    margin-left: 2rem;
+}
+}
+
+@media(max-width:500px){
+    
+
+.card {
+    margin-left: 3rem;
+}
+}
+
+@media(max-width:800px) and (orientation: landscape){
+    
+    .container{
+margin-left: 10rem;
+    }
+}
+
+
+@media(max-width:740px) and (orientation: landscape){
+    
+    .container{
+margin-left: 11rem;
+    }
+}
+
+@media(max-width:670px) and (orientation: landscape){
+    .container{
+        margin-left: 8rem;
+
+    }
+
+}
+@media(max-width:580px) and (orientation: landscape){
+    .container{
+        margin-left: 6rem;
+        margin-right: 0;
+    }
+
+}
+
+@media(max-width:380px){
+    
+    .card {
+        margin-left: 1.5rem;
+      
+    }
+    
+}
+
+@media(max-width:350px){
+    
+    .card {
+        margin-left: 0rem;
+      
+    }
+    
+}

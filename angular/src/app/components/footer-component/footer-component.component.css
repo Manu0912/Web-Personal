@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+footer{
+    position: absolute;
+    z-index: 10000;
+    float: none;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    height: 110px;
+}
+.div-social{
+    float: left;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+.fa-linkedin{
+    background: rgb(28, 2, 177);
+    color: white;
+}
+#btn-linkedin{
+    background: rgb(28, 2, 177);
+    color: white;
+    margin-right: 23.5%;
+    float: right;
+    margin-top: 1.5%;
+}
+
+#btn-email{
+    background: rgb(163, 3, 3);
+    color: white;
+    margin-right: 2.5%;
+    float: right;
+    margin-top: 1.5%;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 40%;
+    margin-right: 2.5%;
+    float: right;
+    color: white;
+    margin-top: 1%;
+}
+.footer-a{
+    text-decoration: none;
+    color: rgb(6, 158, 247);
+}
+
+@media(max-width:1100px){
+    
+#btn-linkedin{
+    margin-right: 21%;
+   
+}
+}
+@media(max-width:767px){
+    footer p{
+        font-size: 14px;
+    }
+    
+#btn-linkedin{
+    margin-right: 20%;
+   
+}
+
+@media(max-width:645px){
+    footer p{
+        font-size: 13px;
+    }
+    
+#btn-linkedin{
+    margin-right: 18%;
+   
+}
+}
+}
+
+@media(max-width:560px){
+    footer p{
+        font-size: 12px;
+    }
+    
+#btn-linkedin{
+    margin-right: 16%;
+   
+    margin-top: 3%;
+}
+
+#btn-email{
+    margin-top: 3%;
+}
+footer p{
+    margin-top: 3%;
+}}
+
+
+@media(max-width:414px){
+    footer p{
+        font-size: 11.2px;
+    }
+}
+
+@media(max-width:374px){
+    footer p{
+        font-size: 10px;
+    }
+    
+#btn-linkedin{
+    margin-right: 11%;
+   
+    margin-top: 3%;
+}
+}
+
+
+@media(max-width:340px){
+    footer p{
+        font-size: 9.5px;
+    }
+    
+#btn-linkedin{
+    margin-right: 11%;
+   
+    margin-top: 3%;
+}
+}

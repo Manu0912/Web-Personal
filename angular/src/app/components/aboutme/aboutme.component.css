@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-aboutme, .subtitle-aboutme{
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+}
+
+.title-aboutme{
+    font-size: 50px;
+    color: black;
+}
+.subtitle-aboutme{
+    color: #bbb;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#section-aboutme{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px black ;
+}
+#section-aboutme h2{
+    font-family: 'Gotu', sans-serif;
+    margin-bottom: 2%;
+}
+
+
+#aside-aboutme{
+    margin-right: 8%;
+    margin-top: 5%;
+    width: 30%;
+    float: right;
+}
+
+.showmore{
+    margin-top: 1.5%;
+    width: 150px;
+    height: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media(max-width:1500px){
+    
+    .title-aboutme{
+        font-size: 60px;
+        color: black;
+    }
+    .subtitle-aboutme{
+        color: #bbb;
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+    #section-aboutme p{
+        font-size: 20px;
+    }
+}    
+@media(max-width:1234px){
+    
+.title-aboutme{
+    font-size: 40px;
+    color: black;
+}
+.subtitle-aboutme{
+    color: #bbb;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+#section-aboutme p{
+    font-size: 17px;
+}
+}
+
+@media(max-width:950px){
+    .title-aboutme{
+        font-size: 40px;
+        color: black;
+        padding-bottom: 2%;
+    }
+    .subtitle-aboutme{
+        color: #bbb;
+        font-size: 15px;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #section-aboutme{
+        width:90%;
+    margin-left: 5%;
+    }
+}
+@media(max-width:550px){
+    #section-aboutme p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:400px){
+    #section-aboutme p{
+        font-size: 14px;
+    }
+}

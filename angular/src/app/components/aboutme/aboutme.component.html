@@ -1,0 +1,32 @@
+<div class="main-aboutme">
+  <h1 class="title-aboutme">Sobre Mí</h1>
+  <h2 class="subtitle-aboutme">Soy un desarrollador con conocimientos en front-end y en back-end. <br> </h2>
+</div>
+
+<div id="section-aboutme">
+  <h2>Mi historia como programador</h2>
+  <p>Comencé a programar a los 15 años con el curso de <strong>fundamentos</strong> de la programación de Platzi
+    (2017), a los 16 años (2018) hice un curso de 3 meses de duración de fundamentos de la programación en la
+    <strong>UTN</strong> online de Buenos Aires. Unos meses después de completarlo, empecé a hacer un curso de udemy
+    del lenguaje <strong>C#</strong>. <br>En 2019 comencé un curso del framework <strong>.NET</strong> (un curso
+    centrado en el lenguaje c# sin ahondar profundo en el framework en sí), que tuvo una duración de 4 meses en la UTN
+    online de Buenos Aires. <br> Al terminar todo esto comencé a potenciar mi estudio autodidacta y en esta etapa fue
+    donde me incliné al <strong>desarrollo web.</strong></p>
+  <div id="collapseText" class="collapse">
+    <p><br>Lo primero que vi sobre web fueron unos cursos de html, css y JavaScript, a esto le dediqué unos 3 meses.
+      Luego de eso comencé a ver frameworks y librerías de javascript, ahí empecé a ver jQuery, luego NodeJs y mongoDB
+      como base de datos no relacional y, por último, typescript y Angular. <br>Todo esto último lo aprendí en cursos de
+      udemy, youtube, foros y artículos de google. <br>Actualmente estudio la <strong>tecnicatura universitaria en
+        programación</strong> en la Universidad Tecnológica Nacional </p>
+  </div>
+  <p>
+    <button (click)="show = true" *ngIf="!show" class="btn btn-primary showmore text-center" type="button"
+      data-toggle="collapse" data-target="#collapseText" aria-expanded="false" aria-controls="collapseExample">
+      Seguir leyendo
+    </button>
+    <button (click)="show = false" *ngIf="show" class="btn btn-primary showmore text-center" type="button"
+      data-toggle="collapse" data-target="#collapseText" aria-expanded="false" aria-controls="collapseExample">
+      Mostrar menos
+    </button>
+  </p>
+</div>
